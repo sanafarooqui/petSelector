@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8' />
+  <title>Pet Selector</title>
+    <script src="cookies.js"></script>
+    <script src="browserDetect.js"></script>
+    <script src="data.json"></script>
+    <link href="petSelector.css" rel="stylesheet" type="text/css">
+    <script src="petSelector.js" ></script>
+ 
+</head>
+
+<body onload="initailizePage();">
+   
+
+    
+<div id="wrapper">
+  <header>
+   <h1>PET Selector</h1>
+  </header>
+    <div class="selectsDiv" id="selectDiv"><label>Select Animal:</label>
+    <input type="button" id="devButton" value="Add Animal" onclick="openDeveloperWindow();" style="float:right"/></div>
+  <section>
+    <article>
+      <div class="dogDiv" id="dogsDiv"></div>
+    </article>
+  </section>
+</div>
+
+</body>
+</html>
+
+<!--Citations
+Data from: http://www.all-pet-birds.com/,
+http://www.animalplanet.com/breed-selector/dog-breeds.html
+-->

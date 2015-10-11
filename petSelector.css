@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body {
+	background-color:#C0E0F2;
+}
+
+#wrapper {
+	width:1200px;
+	margin-top:30px;
+	margin-right:auto;
+	margin-left:auto;
+}
+	
+header {
+    background-color:#FFFFFF;
+    padding:1px 0px 1px 0px;
+    margin:10px 50px 20px 50px;	
+    font-family:Georgia;
+    color:#2F3D5E;
+    letter-spacing:5px;
+    text-align:center;
+	}
+
+#browserFail {
+    background-color: #EE3F3C; 
+    padding:15px 0px 15px 0px;
+    margin:0px 50px 0px 50px;
+    font-family:Verdana;
+    font-size:13px;
+    color:#FFFFFF;
+    text-align:center;
+	}
+
+.description{
+    clear:both;
+    font-family:Verdana;
+    font-size:11px;
+    text-align:left;
+}
+
+#formTitle {
+    background-color:#2F4666;
+    padding:15px 0px 15px 0px;
+    clear:both;
+    font-family:Verdana;
+    font-size:13px;
+    color:#FFFFFF;
+    text-align:center;
+	}
+	
+select {
+   background: white;
+   padding: 5px;
+   font-size: 11px;
+   font-family:Verdana;
+   border-radius: 3px;
+   }
+
+#saveBtn{
+	background-color:#2F4666;
+    font-family: Verdana;
+    font-size:12px;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+.selectsDiv {
+	background-color:#2F4666;
+    padding:15px 0px 15px 0px;
+    margin:0px 50px 0px 50px;
+    clear:both;
+    font-family: Verdana;
+    font-size:12px;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+.dogDiv {
+    background-color:#C0E0F2;
+    padding:10px;
+    margin:0px 50px 20px 50px;
+    position:relative;
+    font-family:Verdana;
+    color:#403D54;
+    font-size:14px;
+    line-height:22px;
+    text-align:center;
+}
+
+#errDiv{
+  color: red;
+}
+      
+.text-div {
+    padding-left: 5px;
+    display: inline-block;
+    width: 80%;
+    height: inherit;
+}
+      
+.imageSlide {
+    border-radius: 5px;
+    height:120px;
+    background-color:#FFFFFF;
+    display: inline-flex;
+    border: 1px solid white;
+    padding:5px;
+    float:left;
+    box-shadow: 2px 2px 5px 1px #FA8258;
+    margin:10px 0px 10px 0px;
+    width: 60%;
+    animation-duration: 3s;
+    animation-name: imageSlide;
+}
+
+.formSlide {
+     border-radius: 5px;
+    background-color:#FFFFFF;
+    margin:10px 0px 10px;
+    right:5px;
+    float:right;
+    padding:15px;
+    padding-top: 0px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 5px 1px #FA8258;
+    height: 350px;
+    position: absolute;
+    width: 30%;
+    text-align:left;
+    animation-duration: 5s;
+    animation-name: formSlide;
+}
+
+      
+@keyframes imageSlide {
+  from {
+    margin-left: 100%;
+    width: 60%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 60%;
+  }
+}
+      
+@keyframes formSlide {
+  from {
+    margin-right: 100%;
+    width: 30%; 
+  }
+
+  to {
+    margin-right: 0%;
+    width: 30%;
+  }
+}
+

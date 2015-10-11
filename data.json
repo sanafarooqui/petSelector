@@ -1,0 +1,77 @@
+
+data = {"Dog":{
+                   "Large":{"Protective":{"Working_Dog":{"DogList":[
+                       {"name":"Alaskan Malamute","image":"AlaskanMalamute.jpg","description":"The Alaskan malamute is powerful, independent, strong-willed and fun-loving. It is family-oriented, and as long as it is given daily exercise, it is well-mannered in the home. Without proper exercise, it can become frustrated and destructive. It is friendly and sociable toward people, but it may be aggressive toward strange dogs, pets or livestock.It tends to dig and howl."},
+                       {"name":"Bullmastiff","image":"Bullmastiff.jpg","description":"The bullmastiff is gentle and quiet, a devoted companion and guardian. It is not easily roused, but once threatened it is fearless. It is stubborn and cannot easily be goaded into action against its will. Some can be aggressive toward strange dogs, but it is generally good with other household dogs and pets."},
+                       {"name":"Tibetan Mastiff","image":"TibetanMastiff.jpg"}]},
+                                         "Pet_Friendly":{"DogList":[
+                       {"name":"Golden Retriever","image":"GoldenRetriever.jpg","description":"The golden retriever is an athletic, strong dog, capable of carrying heavy game over land and water. For this, it needs a broad, powerful head with strong neck and well-developed fore- and hindquarters. It is just slightly longer than tall. The gait is smooth, powerful and ground-covering. The water-repellant coat is dense, with the outer coat straight or wavy."},
+                       {"name":"Labrador Retriever","image":"LabradorRetriever.jpg","description":"Few breeds so richly deserve their popularity as the Labrador retriever. Devoted, obedient and amiable, the Lab is good with children, other dogs and other pets. It will be a calm house dog, playful yard dog and intense field dog, all on the same day. It is eager to please, enjoys learning and excels in obedience."},
+                       {"name":"Irish Setter","image":"IrishSetter.jpg","description":"The Irish setter was bred to be a tireless and enthusiastic hunter, and it approaches everything in life with a rollicking, good-natured attitude, full of gusto and fervor. Given a daily outlet for its energy, it makes a pleasant companion. Without ample exercise, it can be overly active inside or become frustrated."}]}
+                                         },
+                          "Non_Protective":{"Sporty":{"DogList":[
+                       {"name":"Border Collie","image":"BorderCollie.jpg","description":"The border collie is a bundle of mental and physical energy awaiting its chance to be unleashed on the world. Among the most intelligent and obedient of breeds, it is nonetheless a disastrous house dog if it is not given a challenging job every day. Given sufficient exercise, it is a dependable and loyal companion. It also likes to chase other animals."},
+                       {"name":"Brittany","image":"Brittany.jpg","description":"The Brittany makes a good house pet, as long as it receives daily mental and physical exercise. If not given sufficient exercise, it can become destructive."}]},
+                                            "Non_Sporty":{"DogList":[
+                       {"name":"Poodle","image":"Poodle.jpg","description":"Among the very smartest and most obedient of dogs, the standard poodle combines playful exuberance with a zest for life's adventures. It retains its hunting heritage and loves to run, swim and retrieve. It gets along well with everyone, although it is somewhat reserved with strangers. It is excellent with children."},
+                       {"name":"Dalmatian","image":"Dalmatian.jpg","description":"Bred to run for miles, the Dalmatian retains this tireless enthusiasm. It is a playful, eager companion that must get daily hard exercise in a safe area if it is expected to behave at home. It loves to run and may roam. It may be aggressive toward strange dogs, but it is generally good with other pets and is especially good with horses."},
+                       {"name":"Afghan Hound","image":"AfghanHound.jpg","description":"Despite its glamorous reputation, the Afghan hound is a hunter at heart, bred to chase down game over rugged terrain. While it maintains its regal bearings inside, it needs a daily chance to stretch its legs in a safe area. Its worst trait is a reluctance to come when called. It will chase small animals outside; inside, it will coexist peacefully."}]}
+                                           }
+                           },
+                   "Small":{"Energetic":{"DogList":[
+                       {"name":"Lakeland Terrier","image":"LakelandTerrier.jpg","description":"The spunky Lakeland makes the most of every day, always busy investigating, playing and, if it really gets its wish, hunting, running and chasing. Given daily exercise in a safe area, it settles down in the home and makes an entertaining and endearing house pet."},
+                       {"name":"Miniature Pinscher","image":"MiniaturePinscher.jpg","description":"Among the most energetic of all breeds, the min pin is a perpetual motion machine. It is busy, inquisitive, playful, bold and brash. It retains terrier-like traits and tends to be stubborn and independent. It can be scrappy with other dogs and may chase small animals. It is reserved with strangers."},
+                       {"name":"Poodle (Miniature)","image":"PoodleMiniature.jpg","description":"The pert and peppy toy poodle is one of the brightest and easiest breeds to train. It is alert, responsive, playful, lively, sensitive and eager to please. It is devoted to its family. Some can be reserved with strangers; others may bark a lot."}]
+                                        },
+                             
+                        "Couch_Potatoe":{"Lap_Dog":{"DogList":[
+                       {"name":"Dachshund (Miniature)","image":"DachshundMiniature.jpg","description":"The dachshund is bold, curious and always up for adventure. It likes to hunt and dig, tracking by scent and going to ground after game. It is independent but will join in its family's activities whenever given a chance. It is good with children in its own family, but some may snap at strange children."},
+                       {"name":"Miniature Schnauzer","image":"MiniatureSchnauzer.jpg","description":"The miniature schnauzer is a robust, sturdily built terrier of nearly square proportion. It was developed as a ratter and is quick and tough. Its gait displays good reach and drive. Its coat is double, with a close undercoat, and hard, wiry. Its facial furnishings add to its keen expression. "},
+                       {"name":"Ibizan Hound","image":"IbizanHound.jpg","description":"The graceful Ibizan hound retains great hunting instinct, using its acute senses of hearing and smell to locate small animals, and relishing the opportunity to chase anything that moves.It is reserved with strangers; some can be timid. It is gentle, mild-mannered, even-tempered and loyal, and makes a quiet, trustworthy house pet."},
+                        {"name":"Pomeranian","image":"Pomeranian.jpg","description":"Bouncy, bold and busy, the Pomeranian makes the most of every day. It is curious, playful, self-confident (even cocky) and attentive, ever ready for a game or adventure. It is reserved toward strangers. Some can be aggressive toward other dogs. Some bark a lot."}]},
+                                         "Toy_Dog":{"DogList":[
+                       {"name":"Chihuahua","image":"Chihuahua.jpg","description":"The Chihuahua is graceful, small and compact; it is slightly longer than it is tall. It has a saucy expression and an alert, terrier-like attitude. It should move out at a swift pace with good reach and drive. Its coat can be smooth, with soft, glossy hair or long, with soft straight or wavy hair and fringed ears."},
+                       {"name":"Chinese Crested","image":"ChineseCrested.jpg","description":"The Chinese crested is a combination of playful pixie, gentle lap dog and sensitive companion. It is devoted to its family and willing to please; it is also good with other dogs, pets and strangers. Its demeanor should be gay and alert."},
+                       {"name":"Pug","image":"Pug.jpg","description":"A delightful blend of dignity and comedy, the pug is an amiable, playful and confident companion. It can be stubborn and headstrong, but it is pleasant and generally willing to please. It loves to cavort and show off."},
+                       {"name":"Maltese","image":"Maltese.jpg","description":"Long a favorite lap dog, the gentle Maltese fills this role admirably. It also has a wild side and loves to run and play. Despite its innocent look, it is bold and feisty and may challenge larger dogs. It is reserved with strangers. Some bark a lot"}]
+                                        }}
+                           }
+                    },
+
+"Parrot" : {
+            "Large":{"Intelligent":{"Friendly":{"Loud":{"DogList":[
+                                        {"name":"Macaws","image":"Macaw.jpg","description":"These birds are very intelligent and can learn to talk and learn tricks very easily. You can teach them to wave, play dead, dance, and even somersault. They also love to chew, so you will need to provide them with a lot of toys."},
+                                        {"name":"Large Conures","image":"Conures.jpg","description":"The Conure parrot species are active, fun, clownish birds that need experienced bird owners and lots of affection."},
+                                        {"name":"African Grey","image":"Africangrey.jpg","description":"The African Grey Parrot is probably the most popular pet bird and is known to be the most intelligent and the most talkative of the parrot family."}]},
+                                                "Silent":{"DogList":[
+                                     {"name":"Cockatoos","image":"Cockatoo.jpg","description":"These birds make great pets, but ONLY if you are an extremely experienced bird owner. This is VERY important."},
+                                       ]}
+                                         },
+                                    "Reserved":{"DogList":[
+                       {"name":"Active Eclectus","image":"Eclectus.jpg","description":"The first thing you will notice is that they are very sexually dimorphic. The male and female Eclectus are so different looking that they were originally thought to be two different species."},
+                       {"name":"Amazon Parrot","image":"Amazon.jpg","description":"The Amazon parrot is an independent, playful bird that will always keep you entertained with its excellent talking and singing abilities."}]}
+                       },
+                     "Dumb":{"DogList":[
+                       {"name":"Hawk Headed Parrot","image":"Hawkheaded.jpg","description":"Hawk-heads are unique looking because they are able to raise the feathers on their head and the nape of their neck to look bigger and more intimidating (much like a hawk)."}]}
+                      
+                        },
+            "Medium":{"Less_Energetic":{"DogList":[
+                       {"name":"Pionus Parrot","image":"Pionus.jpg","description":"The Pionus Parrot is often overlooked because it seems drab-looking, but these parrots are great family pets."}]},
+                       "Energetic":{"Colorful":{"DogList":[
+                                    {"name":"Caique Parrot","image":"Caique.jpg","description":"They are not great for first-time bird owners, but they will always keep you entertained. They enjoy playing on their backs, hopping around the house, and just being comical. They are mischevious, stubborn, and need clear boundaries or they may become nippy."},
+                                    {"name":"Small Conures","image":"ConuresSmall.jpg","description":"Conures are active birds that can be quite loud. They need more experienced bird owners and most are not suited for apartment living, except for one. Green-cheeked Conures are actually good first birds and are quiet enough to live in an apartment with you."},
+                                    {"name":"Large Parakeets","image":"LargeParakeets.jpg","description":"Generally speaking, Parakeets are a group of small to medium sized pet birds that have long tail feathers."},
+                                    {"name":"Lories and Lorikeets","image":"Lorikeets.jpg","description":"Lories are very playful, acrobatic, and curious. They can even learn to talk and many have good vocabularies."}]},
+                                    "Colorless":{"DogList":[
+                       {"name":"Poicephalus","image":"Poicephalus.jpg","description":"The parrots that are part of the Poicephalus genus are playful and entertaining."}]}
+                                    }
+                        },
+            "Small":{"Talking":{"DogList":[
+                       {"name":"Small Parakeet","image":"SmallParakeet.jpg","description":"Because the term is so general, it refers to a wide range of birds with different sizes, looks, and personalities. One of the best known in the U.S. is the Budgerigar (Budgie)."}]},
+                    "Non_Talking":{"DogList":[
+                       {"name":"Lovebirds","image":"Lovebirds.jpg","description":"They are quiet birds, so they can live in an apartment with you. They can also be friendly with all members of your family if they are hand-fed and socialized from a young age. They can become nippy as they mature if they are not properly or consistently handled."},
+                       {"name":"Parrotlet","image":"Parrotlet.jpg","description":"These birds are the smallest parrots kept as pets and they have about the same size personality as an Amazon. However, unlike Amazons, these birds are great for first-time owners. They are entertaining and playful, and they can even learn to talk and do tricks! Their tiny voices are such a joy and they will never cease to amaze you."},
+                       {"name":"Cockatiel","image":"Cockatiel.jpg","description":"Cockatiels are sweet, personable, easy to care for, intelligent, fun, and all around great family pets. They are great whistlers and the males can actually learn how to talk. They are easy to train and are quiet enough for apartment living. They can be very cuddly and are also independent and undemanding."}]}
+                                         
+                           }
+                    }};
